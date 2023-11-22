@@ -6,9 +6,9 @@ const user = process.env.USER
 const pwd = process.env.PWD
 
 module.exports = new Sequelize(
-  db,
-  user,
-  pwd,
+  'zzuhagrq',
+  'zzuhagrq',
+  '941wvHa8qOssMkEzt--ODNSpsUyznb4w',
   {
     host: 'cornelius.db.elephantsql.com',
     port: '5432',

@@ -40,9 +40,9 @@ const start = async () => {
 				
         try {
             if (text === '/start') {
-                await UserModel.create({chatId})
+//                await UserModel.create({chatId})
                 await bot.sendSticker(chatId, 'https://chpic.su/_data/stickers/i/ITwise/ITwise_008.webp?v=1695287101')
-                return bot.sendMessage(chatId, `Добро пожаловать в телеграм бот автора ютуб канала ULBI TV`);
+                return bot.sendMessage(chatId, `Добро пожаловать в телеграм бот UlbTVbot`);
             }
             if (text === '/info') {
                 const user = await UserModel.findOne({chatId})
